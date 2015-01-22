@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+  <div class="bub">
+	<pre>
+#include &ltstdio.h&gt
+#include &ltconio.h&gt
+void bubble_sort(long [], long);
+int main()
+{
+  long array[100], n, c, d, swap;
+  printf("Enter number of elements:");
+  scanf("%ld", &n);
+  printf("Enter %ld longegers\n", n);
+    for (c = 0; c < n; c++)
+    scanf("%ld", &array[c]);
+  bubble_sort(array, n);
+  printf("Sorted in ascending order:n");
+    for ( c = 0 ; c < n ; c++ )
+    printf("%ld\n", array[c]);
+    return 0;
+ }
+void bubble_sort(long list[], long n)
+{
+   long c, d, t;
+   for (c = 0 ; c < ( n - 1 ); c++)
+    {
+      for (d = 0 ; d < n - c - 1; d++)
+       {
+          if (list[d] > list[d+1])
+         {
+           t = list[d];
+           list[d] = list[d+1];
+           list[d+1]= t;
+          }
+      }
+  }
+}
+</pre>
+</div>
+	<p align="center"><a href="main.html"><font size="6">BACK</font></a></p>
+</body>
+</html>

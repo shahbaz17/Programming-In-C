@@ -1,0 +1,15 @@
+{
+  "version": "2.0",
+  "name": "Programming in C",
+  "description": "A collection of examples demonstrating commonly used programming techniques in C",
+  "launch_path": "/main.html",
+  "icons": {
+    "60": "/img/logo_60.png",
+    "128": "/img/logo_128.png"
+  },
+  "developer": {
+    "name": "Md Shahbaz Alam",
+    "url": "http://facebook.com/shahbaz17feb"
+  },
+  "default_locale": "en"
+}

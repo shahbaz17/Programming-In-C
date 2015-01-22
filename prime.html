@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+<div class="prime">
+<pre>
+#include &ltstdio.h&gt
+#include &ltconio.h&gt
+int main()
+ {
+   int i,j=2,ch=0;
+   clrscr();
+   printf("\nEnter any number:");
+   scanf("%d",& i);
+   while(j < =i/2)
+  {
+     if(i%j==0)
+      {
+          printf("%d IS NOT PRIME",i);
+           ch=1;
+           break;
+       }
+      else
+       {
+           j++;
+        }
+   }
+   if(ch==0)
+   {
+    printf("%d IS PRIME",i);
+    }
+  }
+	</pre>
+</div>
+	<p align="center"><a href="main.html"><font size="6">BACK</font></a></p>
+</body>
+</html>

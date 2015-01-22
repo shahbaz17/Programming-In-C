@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+  <div class="fact">
+	<pre>
+#include &ltstdio.h&gt
+#include &ltconio.h&gt
+long int factorial(int n);
+void main()
+{
+int n;
+clrscr();
+printf("Enter the number:\n");
+scanf("%d",&n);
+printf("Factorial of %d is %ld",n,f(n));
+getch();
+}
+ long int f(int n) <br/>
+ {
+   if(n<=1)
+   return(1);
+  else
+  {
+    n=n*f(n-1);
+    return(n);
+  }
+}
+    </pre>
+	</div>
+    <p align="center"><a href="main.html"><font size="6">BACK</font></a></p>
+</body>
+</html>
